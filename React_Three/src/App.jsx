@@ -7,7 +7,6 @@ import FPV from './components/FPV'
 import { Player } from './components/player.jsx'
 import { Cubes } from './components/Cubes.jsx'
 import { TextureSelector } from './components/TextureSelect.jsx'
-import { Dino } from './assets/Dinosaur/tyrannosaurus_rex/Dino.jsx'
 import { useStore } from './hooks/useStore.js'
 
 
@@ -29,7 +28,6 @@ function App() {
         <Sky sunPosition={[100, 100, 20]} />
         <ambientLight intensity={0.9} />
         <FPV />
-        <Dino />
         <Physics>
           <Cubes />
           <Player />
