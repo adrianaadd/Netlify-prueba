@@ -8,7 +8,7 @@ export const Cube = ({ id, position, texture }) => {
   const [removeCube] = useStore((state) => [state.removeCube]);
 
   const [ref, api] = useBox(() => ({
-    type: "Dynamic", //Dynamic
+    type: "Static", //Dynamic
     position,
     mass: 1,
   }));
